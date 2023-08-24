@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css2?family=Mulish&display=swap);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:url(./images/background.png);
+    background-size: 100%;
+    font: 11px/1.5 Mulish;
+
+}
+.form{
+    background:url(./images/form-background.png);
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 350px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+h2{
+    padding-left: 100px;
+    padding-bottom: 20px;
+}
+
+input{
+    width: 90px;
+}
+
+.emailfield, .passwordfield, .confpassfield{
+    width:300px;
+    padding: 5px 0px;
+    border-radius: 10px;
+}
+
+.namefield, .lnamefield{
+    border-radius: 10px;
+    padding: 5px 0px;;
+}
+
+button{
+    width: 30px;
+}
+
+.namearea, .email, .password, .confpass, .check, .register{
+    padding: 5px 0px;
+}
+
+.check{
+    display: flex;
+    padding-right: 30px;
+    
+}
+
+.checkbox{
+    width:30px
+}
+.register{
+    width: 100px;
+    padding: 5px;
+    margin:10px 0px;
+    font-size: 12px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background: red;
+    color: #fff
+
+}
+
+
+
+
